@@ -1,0 +1,51 @@
+
+.image-upload{
+    /* height: 8vh; */
+    /* border: 1px solid black; */
+    position: relative;
+    border-radius: 10px;
+}
+.image-upload .preview-container{
+    position: relative;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.image-upload .preview-container .icon-container{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 5px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    z-index: 20;
+    /* border: 1px solid black; */
+}
+.image-upload .preview-container img{
+    width: 50%;
+    height: auto;
+    overflow: auto;
+}
+ 
+.image-upload .icon{
+    /* font-size: 0.6rem; */
+    font-size: 1rem;
+    /* color: white; */
+    
+}
+.image-upload input[type='file']{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; 
+}
